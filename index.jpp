@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+ <p:template skeleton="$configurationURI/jsp/layout/generic_data.jpt" />
+<%-- Remplacez les valeurs ci-dessous par les vôtres --%>
+<c:set var="titre" value="Le piège de Kobané - Un long format du Temps" />
+<c:set var="image" value="http://www.letemps.ch/interactive/2014/kobane-piege/img/format.png" /><%-- Chemin vers l'image en absolu --%>
+<c:set var="description" value="Le piège de Kobané - Un long format multimédia du Temps" />
+<c:set var="lien" value="http://www.letemps.ch/interactive/2014/kobane-piege/" /><%-- Lien vers l'infographie en absolu --%>
+
+<p:body title="Le piège de Kobané - Long format - LeTemps.ch" />
+<p:head>
+	<%-- NE PAS TOUCHER CI-DESSOUS --%>
+	<link rel="image_src" href="${fn:replace(' ', '%20', image)}" />
+	<meta property="og:title" content="${titre}" />
+	<meta property="og:site_name" content="LeTemps.ch" />
+	<meta property="og:image" content="${fn:replace(' ', '%20', image)}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="${lien}" />
+	<meta property="og:description" content="${description}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@letemps" />
+	<meta name="twitter:description" content="${description}" />
+	<meta name="twitter:image" content="${fn:replace(' ', '%20', image)}" />
+	<meta name="twitter:url" content="${lien}" />
+	<%-- FIN DE NE PAS TOUCHER CI-DESSUS --%>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="assets/favicon.ico" />
+
+
+    
+
+    <link rel="stylesheet" type="text/css" href="css/app.min.1413828560.css" />
+
+    <!-- JS -->
+    
+    <script type="text/javascript" src="js/app-header.min.1413828566.js"></script>
+
+    
+    <meta name="twitter:card" content="Le piège de Kobané - Un long format multimédia du Temps #Syrie">
+    <meta name="twitter:site" content="@dataletemps">
+    <meta name="twitter:image" content="http://www.letemps.ch/interactive/2014/kobane-piege/img/format.png" />
+
+    
+    <meta property="og:title" content="Le piège de Kobané - Un long format du Temps" />
+    <meta property="og:url" content="http://www.letemps.ch/interactive/2014/kobane-piege" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Le piège de Kobané - Un long format multimédia du Temps #Syrie" />
+    <meta property="og:image" content="http://www.letemps.ch/interactive/2014/kobane-piege/img/format.png" />
+ 
+    
+
+
+
+
+    
+    
+    
+
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+    $(window).load(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
+<style>
+
+
+
+
+a {
+color:#940026;
+text-decoration:underline;
+}
+
+
+nav {
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  height:40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: verdana;
+  padding-left: 10px;
+  z-index: 999;
+}
+@media (max-device-width: 800px) {
+  nav {
+    position: relative;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+nav a {
+  text-decoration: none;
+  border: none;
+}
+nav .logo {
+  height: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 19px;}
+nav .logo:hover{
+  opacity:0.7;
+  
+
+}
+@media (max-device-width: 800px) {
+  nav .logo {
+    float: none;
+    display: block;
+    margin: 4px auto;
+  },nav .logo:hover{
+  opacity:0.7;
+  
+
+}
+}
+
+
+
+.share-button {
+  position: absolute;
+  top: 5px;
+  right: 45px;
+  line-height: normal;
+}
+</style>
+
+</p:head>
+<nav>
+      <a href="http://www.letemps.ch">
+        <img src="assets/logo.jpg" class="logo" height="20"/>
+      </a>
+     
+      <a class="share-button"></a>
+    </nav></div>
+<div class="titlecard-wrapper">
+
+
+    <div id="top" style="top:0px;position:absolute;" class="waypoint" data-down-waypoint="0,38" data-up-waypoint="0,38"></div>
+    <div id="title-text" class="animated fadeIn">
+        <div class="container">
+            <div class="titlecard-container">
+                <div class="titlecard-content">
+                   
+                   <span style="background: #940026;font-size:16px;padding:5px 15px 5px 15px;font-family: Georgia;">SYRIE </span>
+                    <h1 style="font-size:110px;padding-top:50px;margin-bottom:5px;border-bottom:0px dotted #fff;text-transform:uppercase;">Kobané</h1>
+                     <p style="font-size:30px;color:#fff;;margin-top:-10px;margin-bottom:50px;"><small>le piège</small></p>
+
+                    <div class="begin-bar">
+                        <p><img src="img/down.png" height="15"/> </p>
+                    </div>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /#title-text -->
+    <div class="titlecard-mask animated fadeOut"></div>
+    <div class="titlecard"></div>
+</div><!-- /titlecard-wrapper -->
+
+
+<div id="content">
+
+        
+
+            
+
+            
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p><big>Un reportage de Delphine Minoui</big></p><hr><p><b>UN TONNERRE DE PLUIE ET D'OBUS</b> s’acharne sur Kobané. Il est 17h, suffisamment sombre pour franchir en douce les barbelés et rallier, malgré le danger, la cité martyre à travers champs. Pull vert sur débardeur noir, Ghamgin, 19 ans, embrasse une dernière fois son père. « N’y retourne pas ! Si les gardes-frontières turcs ne t’abattent pas, c’est Daech qui aura ta peau. Cette ville est un piège ! », sanglote le vieillard, les souliers crottés de boue. Dans le brouillard du soir, le jeune combattant kurde a déjà disparu de l’autre-côté.</p><p> Le voilà, le « piège », à quelques encablures d’ici : un méli-mélo d’immeubles grisâtres, au pied de deux collines, carte postale sanglante de détresse, assiégée depuis un mois par les djihadistes de l’Etat islamique. « Des monstres ! », s’insurge le docteur Mohammad Arif Ali. Contacté par cellulaire – la ville kurde de Syrie est si proche de la frontière que le réseau téléphonique turc y fonctionne à la perfection -, il est l’un des quelques centaines de civils restés à Kobané. Ce jeudi après-midi, le quartier qui héberge sa clinique de fortune, au premier étage d’un immeuble anonyme, a essuyé des tirs de mortiers. « On a reçu deux morts, dont un civil, et six blessés », raconte le médecin. </p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1>« N’y retourne pas ! Si les gardes-frontières turcs ne t’abattent pas, c’est Daech qui aura ta peau. Cette ville est un piège »</h1>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text --><br>
+
+        
+
+
+            
+
+            <div class="container new-side">
+
+    <div class="side-by-side-wrapper waypoint">
+        <div class="side-by-side captioned">
+                <div class="enlarge">
+                    <img src="assets/img/jum.jpg" data-src="assets/img/jum.jpg" alt="None" class="img-responsive">
+                    <div class="option"><i class="fa fa-search-plus"></i></div>
+                </div><!--/enlarge-->
+                 <div class="caption-text">
+                        <h6>Des Kurdes de Turquie regardent la ville syrienne de Kobané depuis une colline près de la frontière</h6>
+                    </div>
+
+        </div>
+        <div class="side-by-side captioned">
+                <div class="enlarge">
+                     <img src="assets/img/avion.jpg" data-src="assets/img/avion.jpg" alt="None" class="img-responsive">
+                    <div class="option"><i class="fa fa-search-plus"></i></div>
+                </div><!--/enlarge-->
+               <div class="caption-text">
+                        <h6>Un avion de la coalition survolant la ville de Kobané</h6>
+                    </div>
+    </div>
+        </div> 
+
+</div><!-- /new-side -->
+
+
+
+        
+
+            
+
+            
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Depuis le 16 septembre, date du début de l’offensive des islamistes au drapeau noir, près de 600 personnes ont péri, en majorité des combattants, selon l’Observatoire syrien des Droits de l’homme. La semaine dernière, l’espoir est revenu à tâtons : l’intensification des frappes de la Coalition a freiné la progression de l’Etat islamique, chassant même ses soldats de plusieurs artères stratégiques. Mais Daech, qui encercle la ville, continue à pilonner la frontière, dernière issue de secours, et refermer le piège sur les combattants kurdes. « Quand on entend les avions, on applaudit en direction du ciel. Dès que ça s’arrête, les guerriers de Daech se remettent à tirer au canon. Et là, on se sent de nouveau vulnérable. Parfois, on doit se réfugier au sous-sol», confie-t-il. Sa voix se perd dans un énorme « boum », suivi de rafales de tirs. « Vous entendez ? Ca tire à nouveau !», lance l’imperturbable médecin.</p><p> En un mois, Mohammad Arif Ali a du changer plusieurs fois de clinique de campagne au gré des nouvelles lignes de front, constamment changeantes. L’hôpital principal, évacué au début de l’offensive, a été défiguré par un attentat à la voiture piégée. « Les djihadistes s’infiltrent partout, dans les rues, sur les toits, dans les maisons », dit le praticien. Par précaution, les sorties sont limitées au maximum, juste le temps de fumer une cigarette à la va-vite, de s’approvisionner en pain ou d’aller chercher l’eau au puis. « Ensuite, on la fait bouillir, car il n’y a plus d’eau potable », ajoute-t-il.</p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1>« Pour garder le moral, on chante, on joue au tambourin, on fume la chicha  »</h1>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+            <div class="container new-full">
+
+    <div class="full-grid-wrapper">
+        <div class="full-grid captioned">
+                <div class="enlarge">
+                    <img src="assets/img/chap1.jpg" data-src="assets/img/chap1.jpg" alt="None" class="img-responsive">
+                    <div class="option"><i class="fa fa-search-plus"></i></div>
+                </div><!--/enlarge-->
+                 <div class="caption-text">
+                        <h6>Des chars de l'armée turcs en manoeuvre</h6>
+                    </div>
+                
+        </div><!--/full-grid-->
+    </div><!--/full-grid-wrapper-->
+
+</div><!-- /new-full -->
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+           <p>Revenu il y a 5 mois en Syrie pour aider les siens, sa vie est aujourd’hui un enfer au quotidien. « Parfois, on ne se douche pas pendant 5 jours  Le soir, on dort à peine. En fait, de jour comme de nuit, on ferme l’œil quand on peut, entre deux soins d’urgence », confie-t-il. Avant d’ajouter, pragmatique : « De toute façon, dans la clinique, il n’y a pas assez de place pour tout le monde pour dormir !». Les repas, eux, sont sommaires : du pain et des conserves. « Pour garder le moral, on chante, on joue au tambourin, on fume la chicha », dit le docteur. A cause des combats, Mohammad Arif Ali n’est pas rentré chez lui depuis un mois. Son appartement, situé dans la partie ouest, sous contrôle de l’YPG (les unités de protection du peuple, la milice kurde), est néanmoins resté intact. « L’autre jour, un combattant kurde m’a appelé pour me dire qu’il était dans ma cuisine, en train de manger mon fromage. Bon appétit, je lui ai répondu ! », rigole le médecin. L’humour, une carapace de protection en ces heures difficiles. </p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1>« Les djihadistes nous détestent, nous traitent de <i>kafir</i>, d'infidèles. Ils ne supportent pas nos idées égalitaires, ni notre vision modérée de l’islam, ni l’importance donnée aux femmes »</h1>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+
+      
+
+            
+
+            <div class="container text-section">   
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2"><hr>  
+         <p style='font-family:Helvetica;font-size:14px;color:#666'><b>AVANT/APRES.</b> Il y a quelques jours, l'UNOSTAT, une agence des Nations Unies, a mis en ligne une série d'images satellites montrant les conséquences humaines et matérielles de l'affrontement. Ici, des bâtiments détruits : on aperçoit nettement le cratère formé par l'explosion.<br>
+         <small>MODE D'EMPLOI. Faites glisser le curseur de l'image pour voir l'image avant et après</small> </p>
+
+            <div class="juxtapose" data-startingposition="50" data-showlabels="true" data-showcredits="false" data-animate="true">
+<img src="img/A1.jpg" data-label="6 septembre 2014" data-credit="imgA1.jpg">
+<img src="img/A2.jpg" data-label="15 octobre 2014" data-credit="img/A2.jpg">
+</div>
+       <hr>   </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Fayza Abdi, elle, ne reverra jamais sa maison, dans le quartier de Sina. « Les djihadistes l’ont bombardé », raconte cette membre du Conseil municipal de Kobané, en visite éclair à Suruç, première ville turque après la frontière. Les photos qui commencent à circuler sur l’Internet montrent l’ampleur des dégâts : des bâtisses éventrées, des couloirs de ruines, des places méconnaissables. Un mini-Srebrenica aux portes de la Turquie. Car pour les Kurdes, c’est bien d’un nettoyage ethnique qu’il s’agit. « Les djihadistes nous détestent. Ils nous traitent de « kafir » (infidèles). Ils ne supportent pas ni nos idées égalitaires, ni notre vision modérée de l’islam, ni l’importance donnée aux femmes », dit-elle. Elle aussi n’en revient pas de la vitesse avec laquelle Kobané a sombré dans l’enfer. </p><p>Après le début de l’insurrection anti-Assad, en 2011, la minorité kurde (15% de la population syrienne) était pourtant parvenue à faire renaître son rêve d’indépendance. En marge de la guerre civile, le « Rojava » fut déclarée l’année suivante région auto-administrée, composée de trois cantons autonomes : Kobané, Afrine, à l’Ouest, et Djazira, à l’Est. Un rêve aujourd’hui menacé par Daech. Et que la Turquie fait tout pour briser. « Pendant trois ans, elle a fermé les yeux sur le passage de rebelle syriens islamistes. Et aujourd’hui, elle bloque la frontière aux combattants pro-kurdes. Ankara joue la carte djihadiste pour nettoyer le nord de la Syrie de la présence kurde », enrage Idris Nassan, un autre représentant politique de Kobané. </p><p>Collé à son oreille, le portable ne cesse de sonner. Egalement de passage à Suruç, son agenda est saturé : faire libérer ses confrères du conseil municipal, arrêtés par les autorités turques, appeler à l’aide ses contacts occidentaux, convaincre les Ambassades européennes de pousser Ankara à ouvrir un corridor… « A force de pression, les soldats nous ont laissé envoyer quelques camions de nourriture. Mais ce n’est pas suffisant », dit-il.  </p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+         <div class="container text-section">   
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2"><hr>  
+         <p style='font-family:Helvetica;font-size:14px;color:#666'><b>AVANT/APRES.</b> Alors que la zone était déserte jusqu'à alors, des centaines de voitures sont désormais visibles côté syrien, au point de passage de la frontière. Les conducteurs et leurs familles ont fuit vers la Turquie voisine en abandonnant leurs véhicules.<br>
+         <small>MODE D'EMPLOI. Faites glisser le curseur de l'image pour voir l'image avant et après</small> </p></p>
+
+            <div class="juxtapose" data-startingposition="50" data-showlabels="true" data-showcredits="false" data-animate="true">
+<img src="img/C1.jpg" data-label="6 septembre 2014" data-credit="img/C1.jpg">
+<img src="img/C2.jpg" data-label="15 octobre 2014" data-credit="img/C2.jpg">
+</div>
+       <hr>   </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Là-bas, de l’autre côté, Asya Abdullah en supervise la distribution, avec une équipe de bénévoles. Retranchée dans un endroit secret de Kobané, la co-président du PYD (Parti de l’Union Kurde) affirme que les combattants kurdes, appuyés par des rebelles syriens, contrôlent désormais « 70 % de la ville, y compris le carré sécuritaire, repris aux djihadistes ». « Dans chaque quartier, derrière chaque ligne de front, nous pouvons également compter sur le courage des civils, eux-aussi armés. </p><p>A Kobané, chacun met le pied à l’étrier : il y a des femmes qui font le pain chez elles, des jeunes qui en assurent la livraison», dit-elle, au bout d’une ligne téléphonique parasitée par de nouvelles violentes détonations. « Tout va bien, si, si, tout va bien », insiste-t-elle, presque vexée, quand on lui demande si elle a peur. Fidèle à la doctrine du PYD, un parti à la discipline de fer, hérité de l’idéologie marxiste des rebelles du PKK turc, elle enchaîne d’une voix martiale : « Daech est bien plus fort en armes et nombre, mais nous nous battrons jusqu’à la dernière balle ! ».</p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+        
+
+            <div class="container text-section">   
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2"><hr>  
+         <p style='font-family:Helvetica;font-size:14px;color:#666'><b>AVANT/APRES.</b> Près de la frontière, du côté turc, un camp de réfugiés a été créé dans le but d'accueillir le flot de plus en plus nombreux d'habitants fuyant Kobané.<br>
+         <small>MODE D'EMPLOI. Faites glisser le curseur de l'image pour voir l'image avant et après</small> </p></p>
+
+            <div class="juxtapose" data-startingposition="50" data-showlabels="true" data-showcredits="false" data-animate="true">
+<img src="img/D1.jpg" data-label="6 septembre 2014" data-credit="img/D1.jpg">
+<img src="img/D2.jpg" data-label="15 octobre 2014" data-credit="img/D2.jpg">
+</div>
+       <hr>   </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+            
+
+        
+
+            
+
+            <div class="container text-section"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Pas de discours formaté pour Bavé Renas. Mais plutôt une détermination à toute épreuve. A 48 ans, cet agriculteur aux yeux turquoise a abandonné ses champs de pistaches pour endosser le treillis et protéger sa « terre » et son « honneur » contre Daech. « Jamais je n’avais touché à une arme de ma vie », dit-il, encore surpris par son geste. Ce jeudi, c’est lui qui nous accoste à quelques mètres des barbelés du poste frontière de Mursitpinar. Le temps d’une pause salutaire, il est venu embrasser sa famille, réfugiée dans un camp, avant de repartir au front. Il raconte Kobané : « La moitié de la ville est détruite. Il n’y a plus d’électricité. Les rues sentent la morgue, tant il y a de cadavres d’ennemis abandonnés ». Preuve, dit-il, du mépris des djihadistes pour la mort : « Ils s’en fichent de mourir. Je me souviens d’un combat de rue, début octobre. Avec mes hommes, on en a tué 65. Des renforts sont arrivés de leur côté. Ils ont formé un mur en empilant les 65 cadavres et ils ont continué, impassibles, à nous tirer dessus ».</p><p> Lui qui a vu, fin septembre, un compagnon d’armes, se faire décapiter sous ses yeux, connait le danger de ce combat. « Mais c’est mon devoir de résister. Ces gens-là violent les femmes, ils kidnappent les enfants, ils s’accaparent les terres. Si on cède, ils ne s’arrêteront pas à Kobané », insiste Bavé Renas, avant de repartir franchir les barbelés. En quelques secondes, l’obscurité du soir l’a déjà englouti. De l’autre côté, le piège de Kobané s’est refermé.</p>
+        </div><!--/col-->
+    </div><!--/row-->
+</div><!-- /new-text -->
+
+         <div class="edge-to-edge captioned" style="margin-bottom:-21px">
+    <img src="assets/img/der.jpg" data-src="assets/img/der.jpg" alt="" class="img-responsive">
+
+    
+      
+      
+    
+</div>
+
+
+
+<div id="audio-story">
+    
+
+          
+
+
+            <div class="story-wrapper">
+                <div class="story-text noimg">
+
+                    <div class="credits">
+                        <h6>Crédits</h6>
+                         <p><big><big>Un reportage de Delphine Minoui<big><big></p>
+                        <p><big>Réalisation technique : Jean Abbiateci<big></p>
+                        <p><big>Crédits photos : Kai Pfaffenbach / Reuters<big></p>
+                         <p><big>Crédits photos aériennes : DigitalGlobe 2014. Analyse réalisée par UNITAR/UNOSAT<big></p>
+                            <p><big>Code : Data le Temps, inspiré par <a href="http://www.github.com/nprapps">Nprapps </a>
+                          <big></p>
+                            <p><big>Publié le 20 octobre 2014<big></p>
+
+                    </div>
+
+                </div><!--/col-->
+            </div><!--/row-->
+   
+</div><!--/audio-story -->
+
+<link rel="stylesheet" href="css/jux.css"><script type="text/javascript" src="//cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.js"></script>
+</div>
+<!-- /content -->
+
+
+
+   
+
+    
+
+    
+    <div id="comments" class="comments-container comments-panel"></div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <script type="text/javascript" src="js/app-footer.min.1413828566.js"></script>
+
+   
+</body>
+<script src="js/pym.js"></script>
+ <script src="http://www.letemps.ch/interactive/2014/chantiers-geneve-internationale/js/share.min.js"></script>
+    <script>
+new Share(".share-button", {
+  ui: {
+    flyout: "bottom left"
+  }
+})
+    </script>
+
+</html>
